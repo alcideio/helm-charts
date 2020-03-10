@@ -12,11 +12,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
 
-      - name: Run chart-testing (lint)
-        id: lint
-        uses: helm/chart-testing-action@v1.0.0-alpha.3
-        with:
-          command: lint --config=ct-master.yaml
+      # - name: Run chart-testing (lint)
+      #   id: lint
+      #   uses: helm/chart-testing-action@v1.0.0-alpha.3
+      #   with:
+      #     command: lint --config=ct-master.yaml
 
       - name: Create kind cluster
         uses: helm/kind-action@v1.0.0-alpha.3
