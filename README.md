@@ -40,3 +40,4 @@ Alcide kAudit identifies anomalous behaviors and suspicious activity patterns wh
 
 ![](https://www.alcide.io/wp-content/uploads/2020/01/cta-kaudit-screen-desktop.png)
 
+
