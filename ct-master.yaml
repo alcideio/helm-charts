@@ -1,0 +1,8 @@
+# See https://github.com/helm/chart-testing#configuration
+remote: origin
+chart-dirs:
+  - advisor/charts
+  - kaudit/charts
+chart-repos: []
+helm-extra-args: --timeout 200
+check-version-increment: true
